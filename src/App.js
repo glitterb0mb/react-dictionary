@@ -12,7 +12,7 @@ function App() {
             alt="dicpic"
           ></img>
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunrise" />
         <div className="App-footer">
           <a href="https://github.com/glitterb0mb/react-dictionary">
             Coded by Sarah Davis

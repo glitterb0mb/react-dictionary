@@ -3,9 +3,9 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [results, setResults] = useState(null);
-  let [keyword, setKeyword] = useState("sunrise");
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [loaded, setLoaded] = useState(false);
   function handleResponse(response) {
     setResults(response.data[0]);
