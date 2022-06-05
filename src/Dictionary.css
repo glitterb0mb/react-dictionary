@@ -1,0 +1,25 @@
+.Dictionary section {
+  background-color: #faf2f2;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin: 30px;
+}
+
+.Dictionary input {
+  width: 650px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 5px 3px;
+  color: #7d5a5a;
+  margin-top: 10px;
+}
+
+.Dictionary .Hint {
+  margin-top: 3px;
+}

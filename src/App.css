@@ -1,5 +1,31 @@
+body {
+  background: #f3e1e1;
+  color: #5f4747;
+}
+
+a {
+  color: #7d5a5a;
+}
+
+li {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
 .App {
   text-align: center;
+}
+
+.App-header {
+  background: #f1d1d1;
+  margin: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  margin-bottom: 25px;
 }
 
 .App-footer {
@@ -9,4 +35,8 @@
 
 .App img {
   max-width: 400px;
+}
+
+.Phonetics .Phonetics {
+  margin-bottom: 10px;
 }

@@ -13,7 +13,11 @@ function App() {
           ></img>
         </header>
         <Dictionary />
-        <div className="App-footer">Coded by Sarah Davis</div>
+        <div className="App-footer">
+          <a href="https://github.com/glitterb0mb/react-dictionary">
+            Coded by Sarah Davis
+          </a>
+        </div>
       </div>
     </div>
   );
